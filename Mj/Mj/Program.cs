@@ -1,4 +1,6 @@
 
+using Microsoft.AspNetCore.HttpOverrides;
+
 namespace Mj
 {
     public class Program
@@ -15,6 +17,10 @@ namespace Mj
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
 
             app.UseSwagger();
             app.UseSwaggerUI();
