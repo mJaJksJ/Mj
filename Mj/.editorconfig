@@ -9,6 +9,7 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 max_line_length = 150
 
+
 ### Language rules ###
 
 # this and Me preferences (IDE0003 and IDE0009)
@@ -213,3 +214,54 @@ dotnet_diagnostic.IDE0073.severity = warning
 # Namespace does not match folder structure (IDE0130)
 dotnet_style_namespace_match_folder = true
 dotnet_diagnostic.IDE0130.severity = 130
+
+
+### Unnecessary code rules ###
+
+# Simplify name (IDE0001)
+dotnet_diagnostic.IDE0001.severity = warning
+
+# Simplify member access (IDE0002)
+dotnet_diagnostic.IDE0002.severity = warning
+
+# Remove unnecessary cast (IDE0004)
+dotnet_diagnostic.IDE0004.severity = warning
+
+# Remove unnecessary using directives (IDE0005)
+dotnet_diagnostic.IDE0005.severity = warning
+
+# Remove unreachable code (IDE0035)
+dotnet_diagnostic.IDE0035.severity = warning
+
+# Remove unused private member (IDE0051)
+dotnet_diagnostic.IDE0051.severity = warning
+
+# Remove unread private member (IDE0052)
+dotnet_diagnostic.IDE0052.severity = warning
+
+# Remove unnecessary expression value (IDE0058)
+dotnet_diagnostic.IDE0058.severity = warning
+
+# Remove unnecessary value assignment (IDE0059)
+dotnet_diagnostic.IDE0059.severity = warning
+
+# Remove unused parameter (IDE0060)
+dotnet_diagnostic.IDE0060.severity = warning
+
+# Remove unnecessary suppression (IDE0079)
+dotnet_diagnostic.IDE0035.severity = warning
+
+# Remove unnecessary suppression operator (IDE0080)
+dotnet_diagnostic.IDE0080.severity = warning
+
+# Remove ByVal (IDE0081)
+dotnet_diagnostic.IDE0081.severity = warning
+
+# Remove unnecessary equality operator (IDE0100)
+dotnet_diagnostic.IDE0100.severity = warning
+
+# Remove unnecessary discard (IDE0110)
+dotnet_diagnostic.IDE0110.severity = warning
+
+# Simplify object creation (IDE0140)
+dotnet_diagnostic.IDE0140.severity = warning
