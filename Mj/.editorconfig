@@ -265,3 +265,12 @@ dotnet_diagnostic.IDE0110.severity = warning
 
 # Simplify object creation (IDE0140)
 dotnet_diagnostic.IDE0140.severity = warning
+
+
+### Miscellaneous rules ###
+
+# Remove invalid global 'SuppressMessageAttribute' (IDE0076)
+dotnet_diagnostic.IDE0076.severity = warning
+
+# Avoid legacy format target in global 'SuppressMessageAttribute' (IDE0077)
+dotnet_diagnostic.IDE0077.severity = warning
